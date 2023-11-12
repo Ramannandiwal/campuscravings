@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Food Items</h1>
+    <ul>
+        <% data.forEach(item => { %>
+            <li>
+                <img src="<%= item.image %>" alt="<%= item.name %>">
+                <p>Name: <%= item.name %></p>
+                <p>Price: <%= item.price %></p>
+                <p>Offer: <%= item.offer %></p>
+            </li>
+        <% }); %>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body{
+    background: url("/images/vegetables-set-left-black-slate.jpg");
+    background-size: cover;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    height: 28rem;
+    width: 20rem;
+    background-color: white;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 18rem;
+    top: 8rem;
+    box-shadow:blue 2px 2px 4px 4px ;
+}
+.container input{
+    font-size: 1.2rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+    width: 14rem;
+    margin-top: 1rem;
+    background-color: transparent;
+    outline: none;
+    color:blue
+   
+
+}
+.container input::placeholder{
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+}
+.container input:active{
+    outline: none;
+}
+form button{
+    height: 2.7rem;
+    width: 8.5rem;
+   margin-top: 2rem;
+   margin-left: 2.5rem;
+   background-color: transparent;
+   box-shadow: blue 1px 1px 1px 1px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+
+}

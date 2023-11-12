@@ -1,0 +1,141 @@
+<!-- start here -->
+  <div class="card m-2" style="width: 18rem;">
+    <img src="<%= data[0].image %>" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><%= data[0].name %></h5>
+      <p class="card-text"> <%= data[0].price %></p>
+      <a href="#" class="btn btn-primary">Offer: <%= data[0].offer %></a>
+      <a href="#" class="btn btn-primary buynow">Buy NOW</a>
+    </div>
+  </div>
+  <!-- endhere -->
+
+    <!-- start here -->
+    <div class="card m-2" style="width: 18rem;">
+      <img src="<%= data[1].image %>" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><%= data[1].name %></h5>
+        <p class="card-text"><%= data[1].price %></p>
+        <a href="#" class="btn btn-primary">Offer: <%= data[1].offer %></a>
+        <a href="#" class="btn btn-primary buynow">Buy NOW</a>
+      </div>
+    </div>
+    <!-- endhere -->
+
+      <!-- start here -->
+  <div class="card m-2" style="width: 18rem;">
+    <img src="<%= data[2].image %>" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><%= data[2].name %></h5>
+      <p class="card-text"><%= data[2].price %></p>
+      <a href="#" class="btn btn-primary">Offer: <%= data[2].offer %></a>
+      <a href="#" class="btn btn-primary buynow">Buy NOW</a>
+    </div>
+  </div>
+  <!-- endhere -->
+
+    <!-- start here -->
+    <div class="card m-2" style="width: 18rem;">
+      <img src="<%= data[3].image %>" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><%= data[3].name %></h5>
+        <p class="card-text"><%= data[3].price %></p>
+        <a href="#" class="btn btn-primary">Offer: <%= data[3].offer %></a>
+        <a href="#" class="btn btn-primary buynow">Buy NOW</a>
+      </div>
+    </div>
+    <!-- endhere -->
+
+     <!-- start here -->
+  <div class="card m-2" style="width: 18rem;">
+    <img src="<%= data[3].image %>" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><%= data[4].name %></h5>
+      <p class="card-text"><%= data[4].price %></p>
+      <a href="#" class="btn btn-primary">Offer: <%= data[4].offer %></a>
+      <a href="#" class="btn btn-primary buynow">Buy NOW</a>
+    </div>
+  </div>
+  <!-- endhere -->
+
+    <!-- start here -->
+    <div class="card m-2" style="width: 18rem;">
+      <img src="<%= data[5].image %>" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><%= data[5].name %></h5>
+        <p class="card-text"><%= data[5].price %></p>
+        <a href="#" class="btn btn-primary">Offer: <%= data[5].offer %></a>
+        <a href="#" class="btn btn-primary buynow">Buy NOW</a>
+      </div>
+    </div>
+    <!-- endhere -->
+
+      <!-- start here -->
+  <div class="card m-2" style="width: 18rem;">
+    <img src="<%= data[6].image %>" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><%= data[6].name %></h5>
+      <p class="card-text"><%= data[6].price %></p>
+      <a href="#" class="btn btn-primary">Offer: <%= data[6].offer %></a>
+      <a href="#" class="btn btn-primary buynow">Buy NOW</a>
+    </div>
+  </div>
+  <!-- endhere -->
+
+    <!-- start here -->
+    <div class="card m-2" style="width: 18rem;">
+      <img src="<%= data[7].image %>" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><%= data[7].name %></h5>
+        <p class="card-text"><%= data[7].price %></p>
+        <a href="#" class="btn btn-primary">Offer: <%= data[7].offer %></a>
+        <a href="#" class="btn btn-primary buynow">Buy NOW</a>
+      </div>
+    </div>
+    <!-- endhere -->
+    <div class="card m-2" style="width: 18rem;">
+      <img src="<%= data[8].image %>" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><%= data[8].name %></h5>
+        <p class="card-text"><%= data[8].price %></p>
+        <a href="#" class="btn btn-primary">Offer: <%= data[8].offer %></a>
+        <a href="#" class="btn btn-primary buynow">Buy NOW</a>
+      </div>
+    </div>
+    <!-- endhere -->
+  
+      <!-- start here -->
+      <div class="card m-2" style="width: 18rem;">
+        <img src="<%= data[9].image %>" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><%= data[9].name %></h5>
+          <p class="card-text"><%= data[9].price %></p>
+          <a href="#" class="btn btn-primary">Offer: <%= data[9].offer %></a>
+          <a href="#" class="btn btn-primary buynow">Buy NOW</a>
+        </div>
+      </div>
+      <!-- endhere -->
+  
+        <!-- start here -->
+    <div class="card m-2" style="width: 18rem;">
+      <img src="<%= data[10].image %>" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><%= data[10].name %></h5>
+        <p class="card-text"><%= data[10].price %></p>
+        <a href="#" class="btn btn-primary">Offer: <%= data[10].offer %></a>
+        <a href="#" class="btn btn-primary buynow">Buy NOW</a>
+      </div>
+    </div>
+    <!-- endhere -->
+  
+      <!-- start here -->
+      <div class="card m-2" style="width: 18rem;">
+        <img src="<%= data[11].image %>" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><%= data[11].name %></h5>
+          <p class="card-text"><%= data[11].price %></p>
+          <a href="#" class="btn btn-primary">Offer: <%= data[11].offer %></a>
+          <a href="#" class="btn btn-primary buynow">Buy NOW</a>
+        </div>
+      </div>
+      endhere

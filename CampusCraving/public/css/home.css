@@ -1,0 +1,113 @@
+.nav-item{
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.nav-link, active{
+    margin-left: 4rem;
+}
+
+
+footer{
+    position: relative;
+    bottom: 0rem;
+    left: -5rem;
+}
+body{
+    background: url("/images/3418448.jpg");
+    background-size: contain;
+    overflow-x: hidden;
+}
+h5{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.card{
+    background-color: rgba(255,255,255, 0.4);
+    box-shadow:black 1px 1px 0.5px 0.5px;
+    color: white;
+}
+.card:hover{
+    background-color: rgba(255,255,255, 0.4);
+    box-shadow:black 4px 4px 2px 2px;
+    color: white;
+    transition: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+}
+
+/* Define the slidein animation */
+@keyframes slidein {
+    from {
+      right: -25rem;
+    }
+    to {
+      right: 2rem;
+    }
+  }
+  .cart li {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* Apply the styles to the .cart class */
+  .cart {
+ width: 20rem;
+    
+
+    background-color: white;
+   border: 1px solid white;
+   box-shadow: blue 2px 2px 4px 4px ;
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    animation: slidein 1s ease-in-out; /* Apply the animation to .cart */
+  }
+  @keyframes slideout {
+    from{
+        right:0rem;
+    }
+    to{
+        right: -25rem;
+    }
+  }
+  
+  /* Additional styling for the hidden state */
+  .cart.visible {
+    right: -21rem;
+    animation: slideout 1s ease-in-out
+  }
+ .footcontaniner{
+  width: 180rem;
+  height: 3.5rem;
+  background-color: rgb(87, 13, 183);
+  position: absolute;
+  bottom: 0;
+  right:0;
+ }
+
+
+/* .cart{
+    width: 18rem;
+    height: 20rem;    
+    border: 2px solid yellow;
+    position: absolute;
+    top: 3.5rem;
+    right: 0;
+
+    animation: slidein 1s ease-in-out;
+}
+@keyframes slidein {
+    from {
+      right: -18rem;
+    }
+    to {
+      right: 0;
+    }
+  }
+.visible{
+    position: absolute;
+    right: -18rem;
+    animation: none;
+} */
